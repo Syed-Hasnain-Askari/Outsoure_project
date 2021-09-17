@@ -1,0 +1,38 @@
+.wrapper{
+    height: 800px;
+}
+.container{
+    display: flex;
+    margin: 0px 50px;
+}
+.container-left{
+    width: 50%;
+    border: 1px solid black;
+}
+.container-left img{
+    height: 500px;
+    padding: 50px;   
+}
+.container-right h1{
+    padding-top: 60px ;
+    margin-left: 50px;
+    font-weight: 900;
+    font-size: 90px;
+    font-family: 'Roboto', sans-serif;
+    color: #153C3F;
+    line-height: 1.15;
+}
+.container-right p{
+    margin-top: 120px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    color: #373737;
+    text-align: right;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.warning{
+    background-color: #136E82;
+    height: 140px;
+}
