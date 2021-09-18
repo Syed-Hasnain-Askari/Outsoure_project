@@ -24,9 +24,9 @@ export default function LandingPage() {
                     <path id="Stroke_3" data-name="Stroke 3" d="M1681.764,0H1245.2c-5.2,0-7.724,1.33-10.369,3.975L1162.864,74,1105.8,27.31l-1346.711-.455" transform="translate(0 22.5)" fill="none" stroke="#00c8e1" stroke-miterlimit="10" stroke-width="12" class="svg-hero-3"></path>
                 </g>
             </svg>
-            <div className="warning">
-                <a>Find out more</a><p>!Warning: Email is not used to pay bill</p>
             </div>
+            <div className="warning">
+                <a>Find out more</a>
             </div>
         </div>
     )

@@ -1,4 +1,5 @@
 .cardsection-wrapper{
+    margin-top: 50px;
     border: 1px solid black;
     height: 500px;
     background-color: #136E82;
@@ -7,4 +8,18 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+@media screen and (max-width:768px) {
+    .cardsection-wrapper{
+        height: 2000px;
+    }
+    .cardsection-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+
+    }
 }

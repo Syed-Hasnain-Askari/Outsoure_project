@@ -24,3 +24,11 @@
     text-align:justify;
     font-family: 'Roboto', sans-serif;
 }
+@media screen and (max-width:786px) {
+    .card-container{
+        margin-top: 60px;
+        width: 440px;
+        height: 340px;
+        background-color: white;
+    }
+}
