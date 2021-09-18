@@ -1,0 +1,26 @@
+.card-container{
+    margin-top: 60px;
+    width: 350px;
+    height: 380px;
+    background-color: white;
+}
+.user-logo{
+    text-align: right;
+    margin-right: 50px;
+}
+.user-heading{
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #153C3F;
+}
+.user-para{
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 75px;
+    text-align:justify;
+    font-family: 'Roboto', sans-serif;
+}

@@ -25,7 +25,7 @@ export default function LandingPage() {
                 </g>
             </svg>
             <div className="warning">
-
+                <a>Find out more</a><p>!Warning: Email is not used to pay bill</p>
             </div>
             </div>
         </div>

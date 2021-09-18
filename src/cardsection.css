@@ -1,0 +1,10 @@
+.cardsection-wrapper{
+    border: 1px solid black;
+    height: 500px;
+    background-color: #136E82;
+}
+.cardsection-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
