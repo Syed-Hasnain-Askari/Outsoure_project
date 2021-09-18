@@ -1,14 +1,8 @@
-*{
-    padding:0;
-    box-sizing: border-box;
-}
-
 .top_nav{
     background-color: #103A3E;
     opacity: 1;
     width: 100%;
 }
-
 .top_nav_container{
     display:flex;
     flex-direction: row-reverse;
@@ -408,14 +402,4 @@
         font-size: 22px;
     }
   
-  }
-
-
-
-  .bd_green{
-      border:2px solid green
-  }
-
-  .bd_red{
-      border:2px solid red
   }

@@ -1,8 +1,9 @@
 .card-container{
-    margin-top: 60px;
+    margin: 70px auto;
     width: 350px;
     height: 380px;
     background-color: white;
+    border-radius: 5px;
 }
 .user-logo{
     text-align: right;
@@ -26,9 +27,26 @@
 }
 @media screen and (max-width:786px) {
     .card-container{
-        margin-top: 60px;
-        width: 440px;
-        height: 340px;
+        margin-top: 40px;
+        width: 460px;
+        height: 380px;
         background-color: white;
+    }
+    .user-logo{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .user-heading{
+        margin: 20px auto;
+        text-align: center;
+        font-weight: 700;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        color: #373737;
+    }
+    .user-para{
+        margin-top: 30px;
+        text-align:center;
+        font-family: 'Roboto', sans-serif;
     }
 }
