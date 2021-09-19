@@ -1,43 +1,44 @@
-.savesection-wrapper{
+.intersection-wrapper{
     height: 700px;
 }
-.savesection-container{
+.intersection-container{
     display: flex;
+    flex-direction: row-reverse;
     margin: 0px 80px;
 }
-.reverse__row {
-    flex-direction: row-reverse;
-}
-.savesection-left,.savesection-right {
+.intersection-left,.intersection-right {
     width: 50%;
 }
-.savesection-left img{
+.intersection-left img{
     padding-top: 40px;
     width: 660px;
     height: 460px;
 }
-.savesection-right h1{
+.intersection-right h1{
     line-height: 80px;
     margin-top: 60px;
     text-align: right;
+    margin-right: 130px;
     font-weight: 1000;
     font-size: 55px;
     font-family: 'Roboto', sans-serif;
     color: #373737;
 }
-.savesection-subheading{
+.intersection-subheading{
     padding-top: 40px;
     text-align: right;
+    margin-right: 130px;
     line-height: 60px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 40px;
     color: #373737;
 }
-.savesection-para{
+.intersection-para{
     margin-top: 30px;
     font-size: 25px;
     font-weight: 500;
+    margin-right: 130px;
     font-family: 'Roboto', sans-serif;
     text-align: right;
     line-height: 40px;
@@ -45,11 +46,11 @@
 
 }
 
-.savesection-right a{
+.intersection-right a{
     position: absolute;
-    margin-top: 50px;
+    margin-top: 40px;
     padding-top: 20px;
-    right: 50px;
+    left: 410px;
     display: inline-block;
     width: 207px;
     height: 60px;
@@ -61,31 +62,33 @@
     text-align: center;
     text-decoration: none;
 }
-.savesection-right a:hover{
+.intersection-right a:hover{
     border: 3px solid black;
     outline: 0px;
     cursor: pointer;
 }
 @media screen and (max-width:768px) {
-    .savesection-wrapper{
-        height: 740px;
+    .intersection-wrapper{
+        padding-top: 0px;
+        margin-top: 500px;
+        height: 900px;
+        width: 100%;
     }
-    .savesection-container{
+    .intersection-container{
         display: flex;
-        flex-direction: column-reverse;
         flex-wrap: wrap;
         margin: 0px 30px;
     }
-    .savesection-left img{
+    .intersection-left img{
         padding-top: 40px;
         width: 480px;
         height: 400px;
     }
-    .savesection-right,.savesection-left{
+    .intersection-right,.intersection-left{
         margin: 0 auto;
         width: 100%;
     }
-    .savesection-right h1{
+    .intersection-right h1{
         padding-top: 40px;
         text-align: center;
         font-weight: 1000;
@@ -93,7 +96,7 @@
         font-family: 'Roboto', sans-serif;
         color: #373737;
     }
-    .savesection-right p{
+    .intersection-right p{
         padding-top: 40px;
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -102,18 +105,20 @@
         line-height: 60px;
         color: #373737;
     }
-    .savesection-right a{
-        position: relative;
-        margin-left: 200px;
-        display: inline-block;
-        width: 207px;
-        height: 60px;
-        background-color: #00C8E1;
-        color: #373737;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 800;
-        font-size: 20px;
-        text-align: center;
-        text-decoration: none;
-    }
+    
+.intersection-right a{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 50px;
+    display: inline-block;
+    width: 207px;
+    height: 60px;
+    background-color: #00C8E1;
+    color: #373737;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
 }
